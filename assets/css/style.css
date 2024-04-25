@@ -1,0 +1,129 @@
+
+.body{
+	display: flex;
+	flex-direction: column;       /* Para que las cajas esten una debajo de la otra */
+	color:white;                /* Color Letra */
+	background-color: black;    /* Color fondo */
+	border: 0;
+	margin: 0;
+	justify-content: center;      /* Para que las cajas esten centradas */
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Raleway es una familia elegante del tipo de letra de sans-serif */
+}
+
+/***************************************** PARA TITULO E IMAGEN PRINCIPAL *****************************************/
+.titulo {
+	font-size: 50px;              /* Tamaño Letra */
+	margin: 0;
+	padding:  0;
+	text-align: center;
+}
+.bloque_img_titulo {
+	width: 1280px;
+    height: 727;
+	align-items: center; 
+}
+
+/***************************************** seccion 2:  PARA PARRAFO MAS IMAGEN *****************************************/
+
+	/************ PROPIEDADES PARA EL BLOQUE GENERAL DE LA SECCION 2 ********/
+.bloque_tex_img {
+	margin: 0;
+	padding: 45px 0;
+}
+
+.sub_bloque {
+	width: 60%;
+	margin: 0 auto;
+}
+
+	/*********** PROPIEDASES PARA EL PARRAFO **********/
+.bloque_tex {
+	width: 60%;
+	display: inline-block;
+	padding-right: 20px;
+	text-align: left;
+	vertical-align: middle;  /* MIDDLE: se alinean de modo que se centran verticalmente respecto a la línea del elemento padre en la que están */
+}
+
+.parrafo{
+	font-size: 16px;
+}
+
+	/*********** PROPIEDASES PARA LA IMAGEN DEL PARRAFO **********/
+.bloque_img {
+	display: inline-block;
+	width: 30%;	
+	vertical-align: middle;
+}
+
+.tamano_img_parrafo {
+	width: 399px;
+	height: 237px;
+}
+
+
+/***************************************** seccion 3: ICONOS DE LAS CARACTERISTICAS *****************************************/
+
+.bloque_icono {
+	background-color: #1E1A13;    /****** fondo color del bloque de los iconos *****/
+	text-align: center;
+	padding: 50px;
+}
+
+	/********** propiedades para el titulo de las caracteristicas *********/
+h2 {
+	font-size: 40px;
+	margin-bottom: 1em;
+}
+
+.icono {
+	display: inline-block;
+	width: 30%;
+}
+
+.tex_icono {
+	font-size: 25px;
+}
+
+/***************************************** seccion 4: TRIO DE FOTOS   *****************************************/
+
+.bloque_fotos {
+	text-align: center;
+	padding: 73px;
+}
+
+.marco_foto{
+	padding: 0 auto;
+	margin: 0;
+	justify-content: center;
+	align-items:center;
+}
+
+.imagen {
+	display: inline-block;
+	width: 316px;
+	height: 202px;
+	vertical-align: middle;
+	flex-direction:row;
+}
+
+.tamano_foto{
+	width: 316px;
+	height: 202px;
+}
+
+.imagen img { /*********** para que el trio de fotos no ocupe el 100% del espacio, y quede espacio entre ellas *********/
+	width: 90%;
+}
+
+/******************************************* FOOTER **************************************************************/
+footer {
+	background-color: #1E1A13;
+	text-align: center;
+	margin: 0;
+	padding: 10px;
+}
+
+a {
+	color: white; /* para que el hipervinculo se mantenga en el color que yo quiera */
+}
